@@ -8,7 +8,8 @@ public class test01 {
         }
     }
 
-    public void method02() {
+    @Deprecated
+    public void method04() {
         System.out.println("outerMethod1");
     }
 
@@ -22,7 +23,7 @@ public class test01 {
         test01 object = new test01();
         test01Inner obj = object.new test01Inner();
         obj.method01();
-        object.method02();
+        object.method04();
         object.method03();
 
     }
